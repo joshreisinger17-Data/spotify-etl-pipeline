@@ -18,4 +18,7 @@ To run the python scripts, first run create_tables.py provided in the first cell
 The database design used is a star schema with one fact table and four dimension tables. The design simplifes queries and improves performance. The structure allows joins to be efficient and makes the data easier to analyze. The ETL pipeline allows the JSON song and log files to be extracted to be transformed and loaded into the database. The SQL queries helped to to keep the extracted data clean, organized, and ready for the analysis.
 
 ## Note
+
 This project was completed as part of my WGU Data Analytics program. The project provided an ETL framework, which I completed by implementing the SQL schema, writing SQL queries, and integrating the required ETL functionality to load and transform the data.
+
+The sample dataset used for this project are not included in this repository. To run the project, must obtain the original datasets from the course material or replace them with compatible data.
